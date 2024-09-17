@@ -1,0 +1,45 @@
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+/* Estilo dos produtos */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+}
+
+/* Tamanho e posição das imagens */
+.product-card img {
+    max-height: 200px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+/* Centralizar os itens do carrossel */
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Setas de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
